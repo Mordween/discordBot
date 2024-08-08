@@ -1,0 +1,28 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "bot qui permet l'affichage des stèles pour le jeu WAKFU",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mordween/discordBot.git"
+  },
+  "keywords": [
+    "Wakfu"
+  ],
+  "author": "Mordween",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mordween/discordBot/issues"
+  },
+  "homepage": "https://github.com/Mordween/discordBot#readme",
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.8.0"
+  }
+}
