@@ -2,7 +2,7 @@
   "name": "discordbot",
   "version": "1.0.0",
   "description": "bot qui permet l'affichage des stèles pour le jeu WAKFU",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "test"
   },
