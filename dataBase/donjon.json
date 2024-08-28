@@ -10,9 +10,13 @@
       "stele2": "boss gagne rési di si pas tapé"
     },
     {
-      "name": "retour PA",
+      "name": "crête givré",
       "stele1": "fumé noire dès la phase 2",
       "stele2": "quintecense se stack à l'infini"
+    },
+    {
+      "name": "fléopart",
+      "stele1": "tacheté s'enlève pas",
+      "stele2": "le boss a plus de PM"
     }
   ]
-  

@@ -7,10 +7,20 @@ function loadSublimations() {
   return JSON.parse(data);
 }
 
+function loadDonjons() {
+    const data = fs.readFileSync('./dataBase/donjon.json', 'utf-8');
+    return JSON.parse(data);
+  }
+
 function findSublimation(name) {
   const sublimations = loadSublimations();
   return sublimations.find(sub => sub.name.toLowerCase() === name.toLowerCase());
 }
+
+function findDonjon(name) {
+    const donjons = loadDonjons();
+    return donjons.find(sub => sub.name.toLowerCase() === name.toLowerCase());
+  }
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -46,9 +56,11 @@ module.exports = {
 		const sublimationName = interaction.options.getString('sublimation');
         // Trouver la sublimation dans le fichier JSON
         const sublimation = findSublimation(sublimationName);
+        const donjon = findDonjon(sublimation.donjon);
 
         if (sublimation) {
             await interaction.reply({ content: `Le donjon associé à **${sublimation.name}** est **${sublimation.donjon}**.`, ephemeral: false });
+            await interaction.followUp({ content: `Les stèles associé à **${donjon.name}** sont **${donjon.stele1}** \n **${donjon.stele2}**.`, ephemeral: false });
         } else {
             await interaction.reply({ content: 'Sublimation non trouvée.', ephemeral: true });
         }
