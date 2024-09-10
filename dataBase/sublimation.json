@@ -1,23 +1,576 @@
 [
     {
-      "name": "cicatrisation",
-      "donjon": "tombeau de pandala"
+      "name": "Longueur",
+      "donjon": "Mimic Runique"
     },
     {
-      "name": "ravage",
-      "donjon": "dor mor"
+      "name": "Influence",
+      "donjon": "Mimic Runique"
     },
     {
-      "name": "fermeté",
-      "donjon": "dor mor"
+      "name": "Réprobation",
+      "donjon": "Mimic Runique"
     },
     {
-      "name": "retour PA",
-      "donjon": "crête givré"
+      "name": "Arcanes",
+      "donjon": "Brèche dimensionnelle de Tainela"
     },
     {
-      "name": "ravage secondaire",
-      "donjon": "fléopart"
+      "name": "Retour vital",
+      "donjon": "Brèche dimensionnelle de Tainela"
+    },
+    {
+      "name": "Main forte",
+      "donjon": "Brèche dimensionnelle de Tainela"
+    },
+    {
+      "name": "Vol de Tacle",
+      "donjon": "Brèche dimensionnelle de Tainela"
+    },
+    {
+      "name": "Arme solide",
+      "donjon": "Brèche dimensionnelle de Sufokia"
+    },
+    {
+      "name": "Contre-attaque",
+      "donjon": "Brèche dimensionnelle de Sufokia"
+    },
+    {
+      "name": "Nature",
+      "donjon": "Brèche dimensionnelle de Sufokia"
+    },
+    {
+      "name": "Influence du Wakfu",
+      "donjon": "Brèche dimensionnelle de Sufokia"
+    },
+    {
+      "name": "Revigoration",
+      "donjon": "Brèche dimensionnelle d'Amakna"
+    },
+    {
+      "name": "Critique technique",
+      "donjon": "Brèche dimensionnelle d'Amakna"
+    },
+    {
+      "name": "Précaution",
+      "donjon": "Brèche dimensionnelle d'Amakna"
+    },
+    {
+      "name": "Abandon",
+      "donjon": "Brèche dimensionnelle d'Amakna"
+    },
+    {
+      "name": "Destruction",
+      "donjon": "Brèche dimensionnelle de Bonta"
+    },
+    {
+      "name": "Longueur d'armure",
+      "donjon": "Brèche dimensionnelle de Bonta"
+    },
+    {
+      "name": "Retour enflammé",
+      "donjon": "Brèche dimensionnelle de Bonta"
+    },
+    {
+      "name": "Vol d'Esquive",
+      "donjon": "Brèche dimensionnelle de Bonta"
+    },
+    {
+      "name": "Altruisme",
+      "donjon": "Brèche dimensionnelle de Moon"
+    },
+    {
+      "name": "Arme empoisonnée",
+      "donjon": "Brèche dimensionnelle de Moon"
+    },
+    {
+      "name": "Manie",
+      "donjon": "Brèche dimensionnelle de Moon"
+    },
+    {
+      "name": "Relations sociales",
+      "donjon": "Brèche dimensionnelle de Moon"
+    },
+    {
+      "name": "Parade offensive",
+      "donjon": "Brèche dimensionnelle d'Osamosa"
+    },
+    {
+      "name": "Critique tactique",
+      "donjon":"Brèche dimensionnelle d'Osamosa"
+    },
+    {
+      "name": "Neutralité",
+      "donjon": "Brèche dimensionnelle d'Osamosa"
+    },
+    {
+      "name": "Prétention",
+      "donjon": "Brèche dimensionnelle d'Osamosa"
+    },
+    {
+      "name": "Ambition",
+      "donjon": "Brèche dimensionnelle de la Shukrute"
+    },
+    {
+      "name": "Combat rapproché",
+      "donjon": "Brèche dimensionnelle de la Shukrute"
+    },
+    {
+      "name": "Préparation critique",
+      "donjon": "Brèche dimensionnelle de la Shukrute"
+    },
+    {
+      "name": "Verrouillage",
+      "donjon": "Brèche dimensionnelle de la Shukrute"
+    },
+    {
+      "name": "Courage",
+      "donjon": "Brèche dimensionnelle ultime de Frigost"
+    },
+    {
+      "name": "Expert des armes légères",
+      "donjon": "Brèche dimensionnelle ultime de Frigost"
+    },
+    {
+      "name": "Wakfu Berserk",
+      "donjon": "Brèche dimensionnelle ultime de Frigost"
+    },
+    {
+      "name": "Volte-face",
+      "donjon": "Brèche dimensionnelle ultime de Frigost"
+    },
+    {
+      "name": "Pied ferme",
+      "donjon": "Brèche dimensionnelle ultime du Mont Zinit"
+    },
+    {
+      "name": "Dernier souffle",
+      "donjon": "Brèche dimensionnelle ultime du Mont Zinit"
+    },
+    {
+      "name": "Être sensible",
+      "donjon": "Brèche dimensionnelle ultime du Mont Zinit"
+    },
+    {
+      "name": "Puissance brute",
+      "donjon": "Brèche dimensionnelle ultime du Mont Zinit"
+    },
+    {
+      "name": "Poids Plume",
+      "donjon": "Brèche dimensionnelle ultime de la Shukrute"
+    },
+    {
+      "name": "Temporisation",
+      "donjon": "Brèche dimensionnelle ultime de la Shukrute"
+    },
+    {
+      "name": "Carapace",
+      "donjon": "Brèche dimensionnelle ultime de la Shukrute"
+    },
+    {
+      "name": "Armure lourde",
+      "donjon": "Brèche dimensionnelle ultime de la Shukrute"
+    },
+    {
+      "name": "Dernier soin",
+      "donjon": "Donjon Noirespore"
+    },
+    {
+      "name": "Vision intermédiaire",
+      "donjon": "Donjon Noirespore"
+    },
+    {
+      "name": "Evasion",
+      "donjon": "Donjon Noirespore"
+    },
+    {
+      "name": "Folie Vampirique",
+      "donjon": "Domaine de la Trouffe Salée"
+    },
+    {
+      "name": "Carapace sanguine",
+      "donjon": "Domaine de la Trouffe Salée"
+    },
+    {
+      "name": "Interception",
+      "donjon": "Domaine de la Trouffe Salée"
+    },
+    {
+      "name": "Témérité",
+      "donjon": "Donjon Abraknyde"
+    },
+    {
+      "name": "Enveloppe rocheuse",
+      "donjon": "Donjon Abraknyde"
+    },
+    {
+      "name": "Rupture PA",
+      "donjon": "Donjon Abraknyde"
+    },
+    {
+      "name": "Volonté indirecte",
+      "donjon": "Compost du grand Potofeu"
+    },
+    {
+      "name": "Accumulation",
+      "donjon": "Compost du grand Potofeu"
+    },
+    {
+      "name": "Valeur ajoutée",
+      "donjon": "Compost du grand Potofeu"
+    },
+    {
+      "name": "Ténacité",
+      "donjon": "Palais Lenald"
+    },
+    {
+      "name": "Solidité",
+      "donjon": "Palais Lenald"
+    },
+    {
+      "name": "Propagation",
+      "donjon": "Jawdin de la Weine"
+    },
+    {
+      "name": "Dérobade",
+      "donjon": "Jawdin de la Weine"
+    },
+    {
+      "name": "Fuite",
+      "donjon": "Jawdin de la Weine"
+    },
+    {
+      "name": "Dernière armure",
+      "donjon": "Donjon Srambad"
+    },
+    {
+      "name": "Rupture violente",
+      "donjon": "Donjon Srambad"
+    },
+    {
+      "name": "Retour d'Armure",
+      "donjon": "Donjon Srambad"
+    },
+    {
+      "name": "Tellurisme",
+      "donjon": "Donjon Enutrosor"
+    },
+    {
+      "name": "Brûlure secondaire",
+      "donjon": "Donjon Enutrosor"
+    },
+    {
+      "name": "Gel secondaire",
+      "donjon": "Donjon Enutrosor"
+    },
+    {
+      "name": "Ventilation",
+      "donjon": "Donjon Enutrosor"
+    },
+    {
+      "name": "Gel",
+      "donjon": "Blopéra"
+    },
+    {
+      "name": "Brûlure",
+      "donjon": "Blopéra"
+    },
+    {
+      "name": "Ventilation secondaire",
+      "donjon": "Blopéra"
+    },
+    {
+      "name": "Tellurisme secondaire",
+      "donjon": "Blopéra"
+    },
+    {
+      "name": "Aisance",
+      "donjon": "Source du Mal"
+    },
+    {
+      "name": "Retour PM",
+      "donjon": "Source du Mal"
+    },
+    {
+      "name": "Prospérité",
+      "donjon": "Source du Mal"
+    },
+    {
+      "name": "Puits de Vitalité",
+      "donjon": "Ruche-mère Sabléoptère"
+    },
+    {
+      "name": "Dernières résistances",
+      "donjon": "Ruche-mère Sabléoptère"
+    },
+    {
+      "name": "Ruine",
+      "donjon": "Ruche-mère Sabléoptère"
+    },
+    {
+      "name": "Sauvegarde du Wakfu",
+      "donjon": "Laboratoire de Womewo"
+    },
+    {
+      "name": "Cyclothymie",
+      "donjon": "Laboratoire de Womewo"
+    },
+    {
+      "name": "Folie",
+      "donjon": "Laboratoire de Womewo"
+    },
+    {
+      "name": "Dimensionnalité",
+      "donjon": "Fabrique Méka"
+    },
+    {
+      "name": "Embuscade",
+      "donjon": "Fabrique Méka"
+    },
+    {
+      "name": "Théorie de la matière",
+      "donjon": "Fabrique Méka"
+    },
+    {
+      "name": "Influence lente",
+      "donjon": "Donjon E-Bou"
+    },
+    {
+      "name": "Détermination",
+      "donjon": "Donjon E-Bou"
+    },
+    {
+      "name": "Focalisation",
+      "donjon": "Donjon E-Bou"
+    },
+    {
+      "name": "Topologie",
+      "donjon": "Pandore"
+    },
+    {
+      "name": "Tacle Berserk",
+      "donjon": "Donjon des Crocodailles"
+    },
+    {
+      "name": "Vivacité",
+      "donjon": "Donjon des Crocodailles"
+    },
+    {
+      "name": "Clameur",
+      "donjon": "Donjon des Crocodailles"
+    },
+    {
+      "name": "Esquive Berserk",
+      "donjon": "Donjon des Kannivores"
+    },
+    {
+      "name": "Dévastation",
+      "donjon": "Donjon des Kannivores"
+    },
+    {
+      "name": "Endurance",
+      "donjon": "Donjon des Kannivores"
+    },
+    {
+      "name": "Barrière Distance",
+      "donjon": "Donjon des Kannibouls"
+    },
+    {
+      "name": "Expert des Parades",
+      "donjon": "Donjon des Kannibouls"
+    },
+    {
+      "name": "Visibilité",
+      "donjon": "Donjon des Kannibouls"
+    },
+    {
+      "name": "Vélocité",
+      "donjon": "Donjon des Tropikes"
+    },
+    {
+      "name": "Barrière Mêlée",
+      "donjon": "Donjon des Tropikes"
+    },
+    {
+      "name": "Muraille",
+      "donjon": "Donjon des Tropikes"
+    },
+    {
+      "name": "Intégrité",
+      "donjon": "Tanière des Blérox",
+      "clef": "intervention d’Aguabrial" 
+    },
+    {
+      "name": "Parade Berserk",
+      "donjon": "Tanière des Blérox"
+    },
+    {
+      "name": "Stupéfaction",
+      "donjon": "Tanière des Blérox"
+    },
+    {
+      "name": "Fureur",
+      "donjon": "Tanière des Blérox"
+    },
+    {
+      "name": "Loup solitaire",
+      "donjon": "Volcan Or'Hodruin",
+      "clef": "intervention d’Aguabrial" 
+    },
+    {
+      "name": "Ravage",
+      "donjon": "Volcan Or'Hodruin"
+    },
+    {
+      "name": "Sauvegarde",
+      "donjon": "Volcan Or'Hodruin"
+    },
+    {
+      "name": "Fermeté",
+      "donjon": "Volcan Or'Hodruin"
+    },
+    {
+      "name": "Secret de la vie",
+      "donjon": "Sanctuaire des Dragoeufs",
+      "clef": "intervention d’Aguabrial"  
+    },
+    {
+      "name": "Ecailles de lune",
+      "donjon": "Sanctuaire des Dragoeufs"
+    },
+    {
+      "name": "Légèreté",
+      "donjon": "Sanctuaire des Dragoeufs"
+    },
+    {
+      "name": "Epines",
+      "donjon": "Sanctuaire des Dragoeufs"
+    },
+    {
+      "name": "Tolérance",
+      "donjon": "Crête Givrée",
+      "clef": "intervention d’Aguabrial" 
+    },
+    {
+      "name": "Carnage",
+      "donjon": "Crête Givrée"
+    },
+    {
+      "name": "Expert des Coups critiques",
+      "donjon": "Crête Givrée"
+    },
+    {
+      "name": "Retour PA",
+      "donjon": "Crête Givrée"
+    },    
+    {
+      "name": "Cicatrisation",
+      "donjon": "Tombeau de Pandala"
+    },
+    {
+      "name": "Critique Berserk",
+      "donjon": "Tombeau de Pandala"
+    },
+    {
+      "name": "Embuscade écartée",
+      "donjon": "Tombeau de Pandala"
+    },
+    {
+      "name": "Ravage secondaire",
+      "donjon": "Canyon des Fléopards"
+    },
+    {
+      "name": "Opiniâtreté",
+      "donjon": "Canyon des Fléopards"
+    },
+    {
+      "name": "Persistance",
+      "donjon": "Canyon des Fléopards"
+    },
+    {
+      "name": "Allocentrisme",
+      "donjon": "Donjon Toundrasoirs"
+    },
+    {
+      "name": "Bouclier critique",
+      "donjon": "Donjon Toundrasoirs"
+    },
+    {
+      "name": "Dérobade continue",
+      "donjon": "Donjon Toundrasoirs"
+    },
+    {
+      "name": "Art du cachement",
+      "donjon": "Donjon Crustargneux"
+    },
+    {
+      "name": "Acribie",
+      "donjon": "Donjon Crustargneux"
+    },
+    {
+      "name": "Influence vitale",
+      "donjon": "Donjon Crustargneux"
+    },
+    {
+      "name": "Profit",
+      "donjon": "Donjon Cagnardeurs"
+    },
+    {
+      "name": "Tabass'Carapace",
+      "donjon": "Donjon Cagnardeurs"
+    },
+    {
+      "name": "Sanguinolence",
+      "donjon": "Donjon Cagnardeurs"
+    },
+    {
+      "name": "Influence paradoxale",
+      "donjon": "Donjon Vandaliénés"
+    },
+    {
+      "name": "Conservation",
+      "donjon": "Donjon Vandaliénés"
+    },
+    {
+      "name": "Volonté directe",
+      "donjon": "Donjon Vandaliénés"
+    },
+    {
+      "name": "Balance critique",
+      "donjon": "Donjon Plantigardes"
+    },
+    {
+      "name": "Force légère",
+      "donjon": "Donjon Plantigardes"
+    },
+    {
+      "name": "Interposition",
+      "donjon": "Donjon Plantigardes"
+    },
+    {
+      "name": "Représailles",
+      "donjon": "Donjon Mansots"
+    },
+    {
+      "name": "Apprêt",
+      "donjon": "Donjon Mansots"
+    },
+    {
+      "name": "Agilité vitale",
+      "donjon": "Donjon Mansots"
+    },
+    {
+      "name": "Bouclier dorsal",
+      "donjon": "Donjon Carapattes"
+    },
+    {
+      "name": "Force vitale",
+      "donjon": "Donjon Carapattes"
+    },
+    {
+      "name": "Consolation critique",
+      "donjon": "Donjon Carapattes"
     }
+    
   ]
   

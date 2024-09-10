@@ -1,22 +1,203 @@
 [
-    {
-      "name": "tombeau de pandala",
-      "stele1": "collision tue",
-      "stele2": "3 trainées de lave"
-    },
-    {
-      "name": "dor mor",
-      "stele1": "threshold à 40%",
-      "stele2": "boss gagne rési di si pas tapé"
-    },
-    {
-      "name": "crête givré",
-      "stele1": "fumé noire dès la phase 2",
-      "stele2": "quintecense se stack à l'infini"
-    },
-    {
-      "name": "fléopart",
-      "stele1": "tacheté s'enlève pas",
-      "stele2": "le boss a plus de PM"
-    }
-  ]
+  {
+    "name": "Donjon Noirespore",
+    "stele1": "Propagation : \nEn début de tour, les joueurs posent une case Mucus mortel à leur emplacement",
+    "stele2": "Viscosité ambiante : \nEn début de tour, les joueurs retirent 3 PM max (1 tour) aux alliés alignés",
+    "stele3": "Dérapage contrôlé : \nLorsque le porteur de l'état est attaqué, il attire l'attaquant d'une case"
+  },
+  {
+    "name": "Domaine de la Trouffe Salée",
+    "stele1": "Défenses d'élite : \nLes collisions causées par les Phorreurs sont mortelles",
+    "stele2": "Possessif : \nQuand un joueur termine son tour, s'il n'est pas aligné avec un ennemi, il meurt instantanément",
+    "stele3": "Galeries phorreurs : \nLes Phorreurs esquivent le premier coup d'un attaquant en se déplaçant sur une case libre à proximité (cercle taille 2)"
+  },
+  {
+    "name": "Donjon Abraknyde",
+    "stele1": "Provocation : \nLes Polters ne sont vulnérables qu'à 3 cases ou moins",
+    "stele2": "Polter enragé : \nUn Polter enragé apparaît chaque tour",
+    "stele3": "Fagot : \nQuand un joueur finit son tour, s'il n'a pas un allié à 3 cases ou moins, il meurt"
+  },
+  {
+    "name": "Compost du grand Potofeu",
+    "stele1": "Patate chaude : \nSi l'état Dégénérescence n'est pas transmis en fin de tour, le porteur de l'état perd 100 PM max pour le tour suivant",
+    "stele2": "Gardien du potager : \nLes 4 derniers Légumutants en vie sont protégés par Potofeu",
+    "stele3": "Mijoté : \nL'état Dégénérescence ne peut être transmis à Potofeu qu'un tour après avoir obtenu l'état"
+  },
+  {
+    "name": "Palais Lenald",
+    "stele1": "Méditation : \nEn début de tour de table, les Lenalds gagnent 20% Dommages infligés permanent s'ils n'ont pas perdu au moins 10% de leurs PV max le tour précédent",
+    "stele2": "Stabilité à toute épleuve : \nLes Lenalds sont stabilisés et ont un bonus de 2 PM max (permanent)",
+    "stele3": "Expélience guellièle : \nLa zone du sort Confusion Jutsu est plus grande. Le sort applique un niveau supplémentaire de l'état Confusion par Lenald hors-combat"
+  },
+  {
+    "name": "Jawdin de la Weine",
+    "stele1": "Un pouw tous : \nLes Wabbits sont invulnérables tant que le Gwand Viziw est invulnérable",
+    "stele2": "Tous pouw un : \nLorsqu'un Wabbit subit des dommages en étant à 5 cases ou moins du Gwand Viziw, les dommages sont annulés",
+    "stele3": "Un et un font deux : \nSi un joueur ne finit pas son tour à 3 cases ou moins d'une Cawotte, il meurt instantanément"
+  },
+  {
+    "name": "Donjon Srambad",
+    "stele1": "Cage d'Ombre : \nÀ chaque fin de tour, Venâme applique Cage d'Ombre aux joueurs à 5 cases ou plus de lui :\n * -100 PM max (permanent)\nLa Cage d'Ombre est retirée si un allié finit son tour au contact (invocations exclues)",
+    "stele2": "Voracité mangelombre : \nEn début de tour, Venâme absorbe les *Globe d'ombre* sur le terrain",
+    "stele3": "S'Ombre Armure : \nLes gains d'Armure des joueurs sont complétement annulés, à l'exception des *Globe d'ombre*"
+  },
+  {
+    "name": "Donjon Enutrosor",
+    "stele1": "Dommage collatéral : \nLorsqu'un joueur inflige des dommages : \n * Réplique sur les alliés en cercle de taille 3 autour de lui",
+    "stele2": "Taxe sociale : \nLorsqu'un joueur est soigné ou reçoit de l'armure par un allié : \n * Le soin ou l'armure est répercuté en dommages sur les alliés à 3 cases ou moins de la cible",
+    "stele3": "Renflouement : \nLorsqu'un allié de Jamall'Auneth meurt : \n * Régénère 15% des PV max \nJamall'Auneth ne peut pas mourir tant qu'il a des alliés en combat"
+  },
+  {
+    "name": "Blopéra",
+    "stele1": "Chef d'orchestre : \nÀ chaque changement de Symphonie, 2 mini-blops sont invoqués. Le boss est invulnérable tant qu'un mini-blop est en vie",
+    "stele2": "Sens du rythme : \nEn début de tour de table, chaque joueur obtient un niveau de *Tempo* à respecter (entre 4 et 6)",
+    "stele3": "Symphonie dissonante : \nLes dommages des joueurs sont annulés s'ils ont un allié (invocations comprises) à 3 cases ou moins"
+  },
+  {
+    "name": "Source du Mal",
+    "stele1": "Terre maudite : \nLes effets du glyphe Plantala sur lequel se trouve le boss sont répercutés sur toute la bulle de combat. \nApplique 20% Dommages infligés à tous les monstres",
+    "stele2": "Plantala par Plantala : \nSi les Plantalas ne sont pas tués dans l'ordre indiqué, ils reviennent à la vie et gagnent un boost conséquent. \nApplique 100 Résistance Elémentaire à tous les monstres",
+    "stele3": "Atmosphère oppressante : \nPar glyphe Plantala sur le terrain, en début de tour de table, un effet se produit sur tous les combattants \n * -25 Résistance (permanent) sur les joueurs par glyphe Ozate \n * 25 Résistance (permanent) sur les monstres par glyphe Ozate \n * 10 Volonté (permanent) sur les monstres par glyphe Bambou \nApplique +2 PM et +2 Portée à tous les monstres"
+  },
+  {
+    "name": "Ruche-mère Sabléoptère",
+    "stele1": "Contagion : \nEn fin de tour, le porteur réplique son niveau de *Myotoxine sempiternelle* aux alliés alignés",
+    "stele2": "Toussotements : \nEn début de tour, les joueurs posent une case Myotoxine à leur emplacement",
+    "stele3": "Gestes barrière : \nEn début de tour, le Bombyxolite endoptérygote applique 1 niveau de *Myotoxine sempiternelle* sur le joueur le plus proche par joueur ne l'ayant pas attaqué durant le tour de table"
+  },
+  {
+    "name": "Laboratoire de Womewo",
+    "stele1": "Sewum : \nLes joueurs posent une case *Sewum* sur leur position en début de tour. Les joueurs (invocation comprises) doivent être sur une case *Sewum* pour infliger des dommages au boss, mais meurent s'ils terminent leur tour dessus",
+    "stele2": "Génétique altewnative : \nLe Gwand Wabbit GM est stabilisé de façon permanente. Quand un Zwombbit tombe KO, le boss échange de position avec et gagne 20% Dommages infligés (permanent)",
+    "stele3": "Mowt hewoïque : \nLorsqu'un Zwombbit est KO, ses alliés sont renforcés : \n * 1 PA max et 1 PM max\n* 50 Résistance élémentaire \n* 20% Dommages infligés"
+  },
+  {
+    "name": "Fabrique Méka",
+    "stele1": "L'envers : \nLes aiguilles de l'Horloge tournent à l'envers tout au long du combat",
+    "stele2": "L'inverse : \nApplique *L'inverse* à tous les joueurs",
+    "stele3": "L'opposé : \nInsensible aux retraits de PA et de PM, ainsi qu'aux effets de déplacement"
+  },
+  {
+    "name": "Donjon E-Bou",
+    "stele1": "Pacte Horaire II : \nLes dommages de Pacte Horaire sont décuplés",
+    "stele2": "Vue : \nPar obstacle bloquant non-joueur dans la ligne de vue de Raipiode au début du tour : +1 PM (tour en cours)",
+    "stele3": "Suspension temporelle : \nQuand un personnage joueur subit un effet de déplacement, il est stabilisé pendant 1 tour"
+  },
+  {
+    "name": "Donjon des Crocodailles",
+    "stele1": "Mal de Mer : \nLes joueurs ont le *Mal de Mer*",
+    "stele2": "Tempête : \nAugmente de 1 le coût en PA et en PW des sorts. \nLancer un sort fait perdre 1 PM",
+    "stele3": "Forbans Crocodailles : \nSur les monstres (pas le boss) : * 25% Dommages infligés\n* 2 PM\n* 2 PA\n* 2 Portée\nSort **Malédiction des Marais** renforcé : \n* Applique Résilience Crocodaille à chaque fin de tour (Stabilisé)"
+  },
+  {
+    "name": "Donjon des Kannivores",
+    "stele1": "Maladie : \nLe nombre de poisons de Grozépine augmente \n3 Portée",
+    "stele2": "Proximité : \nSur tous les monstres : réduit les dommages reçus à 0 si aucun allié proche (1 à 3 cases).\nLorsqu'il n'y a plus qu'un seul monstre, la mécanique est inactive",
+    "stele3": "Rançon : \nSi un joueur reçoit un soin : -2 PA, et -1 PA supplémentaire par 500 de Soins"
+  },
+  {
+    "name": "Donjon des Kannibouls",
+    "stele1": "Lourdeur : \nPour la durée du combat, les joueurs possèdent -3 PM max et sont Stabilisés. L'échange de position avec les totems est toujours possible",
+    "stele2": "Cataplasme : \nLes soins et les gains d'armure réalisés sont réduits à 0 si la cible n'est pas proche d'un ennemi ou d'un allié (1 case)",
+    "stele3": "Zig Zag : \nIl est interdit pour un joueur de terminer son tour aligné avec un autre allié.\nLes invocations alignées comptent comme un allié"
+  },
+  {
+    "name": "Donjon des Tropikes",
+    "stele1": "Unité : \nQuand un joueur termine sont tour: \n* S'il n'est pas aligné avec un allié, il meurt",
+    "stele2": "Déroute : \nQuand un joueur occasionne des dégâts :\n* Le lanceur répercute 100% des dommages sur ses alliés en cercle (taille 3)\nQuand un joueur soigne un de ses allié :\n* Le soin est annulé\n* Le lanceur répercute 100% du soin sur ses alliés en cercle (taille 3)",
+    "stele3": "Fortitude : \nÀ chaque tour :\n* Le boss gagne 10% Dommages infligés\nLors du K.O. d'un monstre :\n* Ses alliés gagnent *Fortitude* (1 tour)"
+  },
+  {
+    "name": "Tanière des Blérox",
+    "stele1": "Entravés : \n-2 PM aux joueurs",
+    "stele2": "Colère Blérox : \nChaque tour, les monstres réduisent les dommages selon l'était actif de Blérwitch",
+    "stele3": "Comme un Roc : \nNe peut pas être porté\nNe peut pas transposer\nNe peut pas se téléporter soi-même"
+  },
+  {
+    "name": "Tanière des Blérox",
+    "stele1": "Entravés : \n-2 PM aux joueurs",
+    "stele2": "Colère Blérox : \nChaque tour, les monstres réduisent les dommages selon l'était actif de Blérwitch",
+    "stele3": "Comme un Roc : \nNe peut pas être porté\nNe peut pas transposer\nNe peut pas se téléporter soi-même"
+  },
+  {
+    "name": "Volcan Or'Hodruin",
+    "stele1": "Phénix Suprême : \nL'Esprit du Phénix des Monstres du Dor'Mor est augmenté.\nSi après une attaque, PV d'un Monstre du Dor'Mor = 40%:\n* Applique *Phénix*",
+    "stele2": "Rage de Sor'Hon : \nEn début de tour, si Sor'Hon n'a pas perdu au moins 10% de ses PV max le tour précédent :\n*Rage de Sor'Hon* (+1 Niv.)",
+    "stele3": "Enfumés : \nEn début de combat, les alliés de Sor'Hon obtiennent l'état *Dos à dos*"
+  },
+  {
+    "name": "Sanctuaire des Dragoeufs",
+    "stele1": "Immobilité : \nLes joueurs ont -3 PM (max)",
+    "stele2": "Rancoeur : \nAugmente les dégâts des Coquilles d'Oeufs sur les joueurs.\nModifie leur rayon d'explosion",
+    "stele3": "Energie : \nLes Dragoeurs se motivent\n5 PA"
+  },
+  {
+    "name": "Crête Givrée",
+    "stele1": "Diffusion : \nLa *Quintessence* est transmise sans contrainte de distance et doublée à chaque transmission",
+    "stele2": "Volcan Actif : \nEn début de combat, les monstres (boss compris) obtiennent l'état *Déflexion*",
+    "stele3": "Mazuku : \nCendragon crée des *Nuage Mortel* dès sa deuxième phase"
+  },
+  {
+    "name": "Tombeau de Pandala",
+    "stele1": "Effroi : \nLors d'une collision : K.O. Instantané (joueur)",
+    "stele2": "Energie Vampirique : \n30% des soins effectués dans le combat sont récupérés par les monstres (y compris le Boss)",
+    "stele3": "Super Coup du Tanukouï : \nCoup du Tanukouï-San applique 3 lignes de Feu Fantomatique\nLes dommages de Coup du Tanukouï-San sont augmentés"
+  },
+  {
+    "name": "Canyon des Fléopards",
+    "stele1": "Tache-tache : \n*Tacheté* n'est plus désappliqué\nLe boss gagne 2 PM (permanent)\nLes monstres gagnent 1 PM (permanent)",
+    "stele2": "Unité : \nQuand un joueur termine son tour :\n* S'il n'est pas aligné avec un allié, il meurt",
+    "stele3": "Statue : \nTous les monstres du combat (boss y compris) sont stabilisés"
+  },
+  {
+    "name": "Donjon Toundrasoirs",
+    "stele1": "Grand chef de meute : \nLe porteur de l'état réduit les dommages reçus de 30% par totem sur le terrain",
+    "stele2": "Archimage : \nChaque tour, le Bufflamboyant gagne 1 niveau supplémentaire de son rôle actif",
+    "stele3": "Brute épaisse : \nSi un joueur ne finit pas au contact d'un allié, il perd 300 Résistance élémentaire (1 tour).\nLorsqu'un joueur lance un sort sur une cible alignée, la cible est attirée au contact"
+  },
+  {
+    "name": "Donjon Crustargneux",
+    "stele1": "Immunité parfaite : \nLes Crustargneux sont invulnérables aux dommages s'ils ne sont pas alignés avec 2 joueurs (invocations comprises)",
+    "stele2": "Rivage du temps : \nEn début de tour des joueurs, un glyphe Passage du temps (cercle de taille 3) est posé. Si le joueur ne finit pas son tour dans le glyphe, il meurt instantanément",
+    "stele3": "Acidité : \nQuand un Crustargneux subit des dommages, une case Acide apparaît à sa position"
+  },
+  {
+    "name": "Donjon Cagnardeurs",
+    "stele1": "Terreur : \nLe Scorpiétineur pose un *Poison paralysant* tous les tours",
+    "stele2": "Cohésion : \nQuand un joueur termine son tour :\n* S'il n'est pas aligné avec un allié, il meurt\nLes invocations sont considérées comme des alliés",
+    "stele3": "Vampirisme : \nLes Cagnardeurs se soignent de 100% des dommages qu'ils infligent"
+  },
+  {
+    "name": "Donjon Vandaliénés",
+    "stele1": "Pillage intensif : \nEn tour pair, applique au joueurs *Tête pleine*\nEn tour impaire, applique aux joueurs *Tête vide*",
+    "stele2": "Bande organisée : \nLes Vandaliénés réduisent les dommages s'ils sont en bande organisée :\n* -30% Dommages reçus par allié à 2 cases ou moins",
+    "stele3": "Solidarité : \nLes Vandaliénés (boss exclu) ont un bonus de 100 Résistance élémentaire. Si un Vandaliéné commence son tour avec 50% PV ou moins, il appelle un renfort"
+  },
+  {
+    "name": "Donjon Plantigardes",
+    "stele1": "Miel salvateur : \nLes joueurs subissent des dommages s'ils ne portent pas de miel à la fin de leur tour",
+    "stele2": "Miel collant : \nLes combattants qui portent du miel sont stabilisés pendant le tour des joueurs",
+    "stele3": "Gourmandise plantigarde : \nSi un joueur vole du miel à un combattant alors qu'un Plantigarde est proche (3 cases ou moins), le miel est récupéré par le Plantigarde"
+  },
+  {
+    "name": "Donjon Plantigardes",
+    "stele1": "Miel salvateur : \nLes joueurs subissent des dommages s'ils ne portent pas de miel à la fin de leur tour",
+    "stele2": "Miel collant : \nLes combattants qui portent du miel sont stabilisés pendant le tour des joueurs",
+    "stele3": "Gourmandise plantigarde : \nSi un joueur vole du miel à un combattant alors qu'un Plantigarde est proche (3 cases ou moins), le miel est récupéré par le Plantigarde"
+  },
+  {
+    "name": "Donjon Mansots",
+    "stele1": "··−· ·−· −−− ·· −·· ·−−· −−− ·−·· ·− ·· ·−· · : \n−−·− ··− ·− −· −·· ··− −· ·−−− −−− ··− · ··− ·−· ··−· ·· −· ·· − ··· −−− −· − −−− ··− ·−· −−··−− ··· ·−−−−· ·· ·−·· −· ·−−−−· ·− ·−−· ·− ··· ··− −· ·− ·−·· ·−·· ·· ··−·· ·−−·− ···−− −·−· ·− ··· · ··· −−− ··− −− −−− ·· −· ··· ·· −· ···− −−− −·−· ·− − ·· −−− −· ··· −·−· −−− −− ·−−· ·−· ·· ··· · ··· −·−−·− −−··−− ·· ·−·· −− · ··− ·−· − ·· −· ··· − ·− −· − ·− −· ··−·· −− · −· − ·−·−·−",
+    "stele2": "−··· ·− −· −−·− ··− ·· ··· · : \n·−·· · ··· ·−−· · ·−· ··· −−− −· −· ·− −−· · ··· −−· ·−·· ·· ··· ··· · −· − −·· · ·−−−− −·−· ·− ··· · ··· ··− ·−−· ·−−· ·−·· ··−·· −− · −· − ·− ·· ·−· · ·−−· ·− ·−· −·−· ·− ··· · ·−−· ·− ·−· −·−· −−− ··− ·−· ··− · ·− ·−−· ·−· ·−··− ··· ··− −· −·· ··−·· ·−−· ·−·· ·− −·−· · −− · −· − ·−·−·− ··· ·· ··− −· ·−−· · ·−· ··· −−−  −· −· ·− −−· · ·−−· ·−· −−− ···− −−− −−·− ··− · ··− −· · −·−· −−− ·−·· ·−·· ·· ··· ·· −−− −· · −· −−· ·−·· ·· ··· ··· ·− −· − −−··−− ·· ·−·· ··· ··− −··· ·· − −·· · ··· −·· −−− −− −− ·− −−· · ··· ·−·−·−",
+    "stele3": "−−· ·−· ·− ·· −− −−− ·−· ··· · : \n··· ··− −− −−− ·−· ··· · · ··· − ··· − ·− −··· ·· ·−·· ·· ··· ··−·· −·· · ··−· ·− −·−·· −−− −· ·−−· · ·−· −− ·− −· · −· − · · − −−· ·− −−· −· · ····− −·· · ·−−· −−− ·−· − ··−·· · ·−·−·−",
+    "stele1T": "Froid Polaire : \nQuand un joueur finit son tour, s'il n'a pas un allié à 3 cases ou moins (invocation comprises), il meurt instantanément",
+    "stele2T": "Banquise : \nLes personnages glissent de 1 case supplémentaire par case parcourue après un déplacement. Si un peronnage provoque une collision en glissant, il subit des dommages",
+    "stele3T": "Graimorse : \nSumorse est stabilisé de façon permanente et gagne 4 de portée"
+  },
+  {
+    "name": "Donjon Carapattes",
+    "stele1": "Tortucumulus : \nUn Tortucumulus supplémentaire est invoqué lorsqu'un carapatte meurt. En utilisant un PW, les combattants échangent de position avec le Tortucumulus le plus éloigné",
+    "stele2": "Tortukipik : \nLe *Tortumulus* fait des dommages aux joueurs en anneau de taille 3-5 après chaque téléportation",
+    "stele3": "Tortuproximus : \nLes carapattes sont invulnérables aux dommages si l'attaquant n'a pas un **Tortumulus** à 2 cases ou moins"
+  }
+]
