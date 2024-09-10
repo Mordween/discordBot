@@ -344,8 +344,19 @@
       "donjon": "Donjon E-Bou"
     },
     {
+      "name": "Dérobade lente",
+      "donjon": "Cité Interdite",
+      "number": "1"
+    },
+    {
       "name": "Topologie",
-      "donjon": "Pandore"
+      "donjon": "Cité Interdite",
+      "number": "2"
+    },
+    {
+      "name": "Ruine cyclique",
+      "donjon": "Cité Interdite",
+      "number": "3"
     },
     {
       "name": "Tacle Berserk",

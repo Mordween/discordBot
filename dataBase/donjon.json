@@ -84,6 +84,12 @@
     "stele3": "Suspension temporelle : \nQuand un personnage joueur subit un effet de déplacement, il est stabilisé pendant 1 tour"
   },
   {
+    "name": "Cité Interdite",
+    "stele1": "Zig Zag : \nIl est interdit pour un joueur de terminer son tour aligné avec un autre allié. Les invocations alignées comptent comme un allié",
+    "stele2": "Pluie de météorites : \nLe Boss pose six frappes orbitales par tour parmi des endroits prédéterminés sur la bulle de combat. (en pahse 2 seulement)",
+    "stele3": "Bandits fortiches : \nLes monstres invoqués en renfort sont stabilisés et gagnent des dommages infligés"
+  },
+  {
     "name": "Donjon des Crocodailles",
     "stele1": "Mal de Mer : \nLes joueurs ont le *Mal de Mer*",
     "stele2": "Tempête : \nAugmente de 1 le coût en PA et en PW des sorts. \nLancer un sort fait perdre 1 PM",
