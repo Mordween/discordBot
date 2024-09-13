@@ -197,7 +197,7 @@
     "stele2": "−··· ·− −· −−·− ··− ·· ··· · : \n·−·· · ··· ·−−· · ·−· ··· −−− −· −· ·− −−· · ··· −−· ·−·· ·· ··· ··· · −· − −·· · ·−−−− −·−· ·− ··· · ··· ··− ·−−· ·−−· ·−·· ··−·· −− · −· − ·− ·· ·−· · ·−−· ·− ·−· −·−· ·− ··· · ·−−· ·− ·−· −·−· −−− ··− ·−· ··− · ·− ·−−· ·−· ·−··− ··· ··− −· −·· ··−·· ·−−· ·−·· ·− −·−· · −− · −· − ·−·−·− ··· ·· ··− −· ·−−· · ·−· ··· −−−  −· −· ·− −−· · ·−−· ·−· −−− ···− −−− −−·− ··− · ··− −· · −·−· −−− ·−·· ·−·· ·· ··· ·· −−− −· · −· −−· ·−·· ·· ··· ··· ·− −· − −−··−− ·· ·−·· ··· ··− −··· ·· − −·· · ··· −·· −−− −− −− ·− −−· · ··· ·−·−·−",
     "stele3": "−−· ·−· ·− ·· −− −−− ·−· ··· · : \n··· ··− −− −−− ·−· ··· · · ··· − ··· − ·− −··· ·· ·−·· ·· ··· ··−·· −·· · ··−· ·− −·−·· −−− −· ·−−· · ·−· −− ·− −· · −· − · · − −−· ·− −−· −· · ····− −·· · ·−−· −−− ·−· − ··−·· · ·−·−·−",
     "stele1T": "Froid Polaire : \nQuand un joueur finit son tour, s'il n'a pas un allié à 3 cases ou moins (invocation comprises), il meurt instantanément",
-    "stele2T": "Banquise : \nLes personnages glissent de 1 case supplémentaire par case parcourue après un déplacement. Si un peronnage provoque une collision en glissant, il subit des dommages",
+    "stele2T": "Banquise : \nLes personnages glissent de 1 case supplémentaire par case parcourue après un déplacement. Si un personnage provoque une collision en glissant, il subit des dommages",
     "stele3T": "Graimorse : \nSumorse est stabilisé de façon permanente et gagne 4 de portée"
   },
   {

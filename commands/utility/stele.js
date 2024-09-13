@@ -23,7 +23,18 @@ function findSublimation(name) {
 function findDonjon(name) {
     const donjons = loadDonjons();
     return donjons.find(sub => sub.name.toLowerCase() === name.toLowerCase());
-  }
+}
+
+function findSublimationsByDonjon(donjon) {
+  const sublimations = loadSublimations();
+  
+  // Filtrer les sublimations qui correspondent au donjon spécifié
+  const sublimationsForDonjon = sublimations.filter(sub => sub.donjon.toLowerCase() === donjon.toLowerCase());
+  // return sublimations.filter(sub => sub.donjon.toLowerCase() === donjon.toLowerCase());
+  
+  // Extraire uniquement les noms des sublimations associées au donjon
+  return sublimationsForDonjon.map(sub => sub.name);
+}
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -77,11 +88,14 @@ module.exports = {
       const donjonName = interaction.options.getString('donjon');
       const donjon = findDonjon(donjonName);
 
+      const sublimations = findSublimationsByDonjon(donjon.name)
+
       if (donjon) {
 
         let exampleEmbed = new EmbedBuilder()
           .setColor(0x0099FF)
           .setTitle(`${donjon.name}`)
+          .setDescription(`Les sublimations obtenables dans ce donjon sont :\n${sublimations}`)
           .addFields({ name: 'Stele 1', value: `${donjon.stele1}`, inline: false })
           .addFields({ name: 'Stele 2', value: `${donjon.stele2}`, inline: false })
           .addFields({ name: 'Stele 3', value: `${donjon.stele3}`, inline: false })
@@ -92,6 +106,7 @@ module.exports = {
           let exampleEmbed = new EmbedBuilder()
             .setColor(0x0099FF)
             .setTitle(`${donjon.name}`)
+            .setDescription(`Les sublimations obtenables dans ce donjon sont :\n${sublimations}`)
             .addFields({ name: 'Stele 1', value: `${donjon.stele1T}`, inline: false })
             .addFields({ name: 'Stele 2', value: `${donjon.stele2T}`, inline: false })
             .addFields({ name: 'Stele 3', value: `${donjon.stele3T}`, inline: false })
