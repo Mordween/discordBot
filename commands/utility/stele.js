@@ -152,6 +152,18 @@ module.exports = {
             .setTimestamp()
           await interaction.reply({ embeds: [exampleEmbed] })
         }
+        else if(sublimation.clef != null)
+        {
+          let exampleEmbed = new EmbedBuilder()
+            .setColor(0x0099FF)
+            .setTitle(`${sublimation.name}`)
+            .setDescription(`La sublimation est obtenable via une clef d'${sublimation.clef} dans le dj : ${donjon.name}`)
+            .addFields({ name: 'Stele 1', value: `${donjon.stele1}`, inline: false })
+            .addFields({ name: 'Stele 2', value: `${donjon.stele2}`, inline: false })
+            .addFields({ name: 'Stele 3', value: `${donjon.stele3}`, inline: false })
+            .setTimestamp()
+          await interaction.reply({ embeds: [exampleEmbed] })
+        }
         else
         {
           let exampleEmbed = new EmbedBuilder()
